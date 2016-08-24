@@ -22,8 +22,8 @@ num = "73167176531330624919225119674426574742355349194934\
 
 biggest = 0
 
-for i in xrange(len(num)-5):
-    digits = num[i:i+5]
+for i in xrange(len(num)-13):
+    digits = num[i:i+13]
     product = 1
     for digit in digits:
         product *= int(digit)
